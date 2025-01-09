@@ -1,5 +1,6 @@
 const { Telegraf } = require('telegraf');
-const axios = require('axios');
+const axios = require('axios'); 
+ 
 
 // Replace with your bot token
 const bot = new Telegraf('7526406921:AAFQ_eek9FB-iqeh9luCA38BtfuNg07MhrU');
@@ -38,3 +39,14 @@ bot.command('random_meme', async (ctx) => {
 // Start the bot
 bot.launch();
 console.log('Bot is running...');
+ 
+
+
+const express = require('express')
+const app = express()
+const port = process.env.PORT || 4000;
+ 
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
