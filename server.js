@@ -3,7 +3,7 @@ const axios = require('axios');
  
 
 // Replace with your bot token
-const bot = new Telegraf('7526406921:AAFQ_eek9FB-iqeh9luCA38BtfuNg07MhrU');
+const bot = new Telegraf('bro go get your bot ');
 
 // Imgflip API URL
 const IMGFLIP_API_URL = 'https://api.imgflip.com/get_memes';
